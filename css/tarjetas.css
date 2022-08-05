@@ -1,0 +1,32 @@
+#root{
+    width: 30%;
+    height: auto;
+    border: 3px solid #92bee2;
+    border-radius: 4rem;
+
+    margin: auto;
+    margin-top: 20rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjetas{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #92bee2;
+    font-size: 3rem;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas:hover{
+    background-color: rgb(3, 58, 83);
+}
